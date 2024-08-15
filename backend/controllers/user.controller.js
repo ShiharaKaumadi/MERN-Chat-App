@@ -8,6 +8,6 @@ export const getUsersForSidebar = async (req,res) => {
 
     }catch(error){
         console.error("Error in getUserSidebar: ",error.message);
-        res.status(500).json({error:"Internal Server Error"})
+        res.status(500).json({error:"Internal Server Error"});
     }
 }
